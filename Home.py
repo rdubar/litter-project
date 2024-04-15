@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="The Partick Litter Project", page_icon="🌿")
+st.set_page_config(page_title="Partick Litter Plan", page_icon="🌿")
 
 if 'sbstate' not in st.session_state:
     st.session_state.sbstate = 'collapsed'
