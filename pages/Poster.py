@@ -1,10 +1,11 @@
 import streamlit as st
+from settings import poster_path
 
 st.title('Poster 🌿')
 
-st.image('images/Partick_litter_Plan.jpg', caption="Partick Litter Plan Poster", width=400)
+st.image(f'{poster_path}.jpg', caption="Partick Litter Plan Poster", width=400)
 
-with open("images/Partick_litter_Plan.pdf", "rb") as file:
+with open(f'{poster_path}.pdf', "rb") as file:
     btn = st.download_button(
             label="Download Poster PDF",
             data=file,
