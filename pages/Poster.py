@@ -3,6 +3,8 @@ from settings import poster_path
 
 st.title('Poster 🌿')
 
+st.write(f'{poster_path}.jpg')
+
 st.image(f'{poster_path}.jpg', caption="Partick Litter Plan Poster", width=400)
 
 with open(f'{poster_path}.pdf', "rb") as file:
