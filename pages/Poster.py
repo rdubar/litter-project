@@ -3,6 +3,8 @@ from settings import poster_path
 
 import os
 
+st.image('images/Partick_Litter_Plan.jpg', width=400)
+
 # Check if the file exists
 file_path = '/mount/src/litter-project/images/Partick_litter_Plan.jpg'
 if os.path.exists(file_path):
