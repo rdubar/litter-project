@@ -7,6 +7,13 @@ Welcome to the Partick Litter-Project, a Streamlit application designed to engag
 - **Manifesto**: Actions to keep Partick tidy!
 - **Chatbot**: Interact with the Partick Litter Pal, a friendly chatbot here to answer your questions about litter prevention, recycling options, and upcoming community events.
 
+# TODO
+
+* Links
+* Poster
+* Stickers
+
+
 ## Project Roadmap
 
 - **Interactive Maps**: View maps highlighting litter hotspots and clean-up event locations.

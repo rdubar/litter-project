@@ -1,13 +1,13 @@
 import streamlit as st
 
-st.set_page_config(page_title="The Partick Litter Project", page_icon=":robot:")
+st.set_page_config(page_title="The Partick Litter Project", page_icon="🌿")
 
 if 'sbstate' not in st.session_state:
     st.session_state.sbstate = 'collapsed'
 
 # Main heading
-st.title('The Partick Litter Manifesto 🌿')
-st.write("Partick is our home. It's under siege from litter. Together, we can restore its glow.")
+st.title('Partick Litter Plan 🌿')
+st.write("Partick is our home. It's dirty. Let's clean it up together!")
 
 # Supermarket Recycling section
 with st.expander("🛒 Supermarket Recycling"):
@@ -44,7 +44,7 @@ with st.expander("🚯 Teach and Practice"):
 with st.expander("💬 Spread the Word"):
     st.write('**Be Vocal:**')
     st.write('Make Partick a dear clean place. Share your efforts with hashtags:')
-    st.write('#DearCleanPlace #LessPlasticMorePartick')
+    st.write('#PartickLitterPlan #LessPlasticMorePartick')
 
 st.page_link("pages/Chatbot.py", label = "Questions? Ask the PARTICK LITTER CHATBOT!", icon="🤖")
 

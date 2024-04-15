@@ -1,5 +1,5 @@
-from openai import OpenAI
 import streamlit as st
+from openai import OpenAI
 
 st.title("Partick Litter Chatbot 🤖")
 
@@ -14,7 +14,7 @@ Let's make Partick sparkle together! 💬🌟
 """
 
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"
+    st.session_state["openai_model"] = "gpt-4-turbo"
 
 if "messages" not in st.session_state:
     if seed_prompt:
