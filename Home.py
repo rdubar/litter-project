@@ -48,4 +48,4 @@ with st.expander("💬 Spread the Word"):
 
 st.page_link("pages/Chatbot.py", label = "Questions? Ask the PARTICK LITTER CHATBOT!", icon="🤖")
 
-st.write('#DearCleanPlace #LessPlasticMorePartick')
+st.write('#PartickLitterPlan #LessPlasticMorePartick')
