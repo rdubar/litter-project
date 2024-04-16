@@ -4,6 +4,7 @@ st.title('Useful Links 🌿')
 
 """
 #### Glasgow City Council
+- [Glasgow City Council: Bins and Recycling](https://www.glasgow.gov.uk/index.aspx?articleid=15893)
 - [Glasgow City Council: Report Litter in a Public Place](https://www.glasgow.gov.uk/litter)
 - [Glasgow City Council: Litter Lotto](https://www.glasgow.gov.uk/litterlotto)
 - [Clean Glasgow 2021-2026 Litter Prevention Action Plan](https://www.glasgow.gov.uk/Councillorsandcommittees/viewSelectedDocument.asp?c=P62AFQDNDXZ3T1DNNT)

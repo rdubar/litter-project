@@ -9,6 +9,26 @@ if 'sbstate' not in st.session_state:
 st.title('Partick Litter Plan 🌿')
 st.write("Partick is our home. It's dirty. Let's clean it up together!")
 
+# Poster Section
+with st.expander("🌿 Free Poster"):
+    st.write("Please download and share the Partick Litter Plan poster!")
+    st.image('images/Partick_Litter_Plan.jpg', width=200)
+    with open('images/Partick_Litter_Plan.pdf', "rb") as file:
+        btn = st.download_button(
+                label="Download Poster PDF",
+                data=file,
+                file_name="Partick_litter_Plsn.pdf",
+                mime="image/pdf"
+              )
+        
+# Links Section
+with st.expander("🔗 Useful Links"):
+    """
+    [Glasgow City Council: Bins and Recycling](https://www.glasgow.gov.uk/index.aspx?articleid=15893)
+    Partick Action On Litter Facebook Group](https://www.facebook.com/PartickActiononLitter)
+    """
+    st.page_link("pages/Links.py", label = "Find more on our links page", icon="🔗")
+
 # Supermarket Recycling section
 with st.expander("🛒 Supermarket Recycling"):
     st.write("**Recycling at Supermarkets:**")
@@ -17,29 +37,18 @@ with st.expander("🛒 Supermarket Recycling"):
     st.write('Ask your supermarket to start recycling plastic packaging.')
     st.write('Encourage them to use less plastic in food packaging.')
 
-# Ask for More Bins section
-with st.expander("🚮 Ask for More Bins"):
-    st.write('**Need More Bins:**')
-    st.write('Partick needs more bins!')
-    st.write('Ask **Glasgow City Council** to add more recycling and rubbish bins in key areas.')
-
-# Bring Your Own Bag section
-with st.expander("🛍️ Bring Your Own Bag"):
-    st.write('**Reusable Bags:**')
+# Hints section
+with st.expander("🛍️ Hints & Tips"):
     st.write('Always carry reusable shopping bags. Use them every time you shop.')
+    st.write('Ask **Glasgow City Council** to add more recycling and rubbish bins in key areas.')
+    st.write('Never drop litter. Teach kids the importance of keeping our community clean.')
 
 # Join Litter-Picking Events section
 with st.expander("🧹 Join Litter-Picking Events"):
     st.write('**Community Clean-Up:***')
     st.write('Join a litter-picking event. It’s fun and great for the community. Get involved!')
     st.markdown('[Join the Partick Action on Litter group on Facebook!](https://www.facebook.com/PartickActiononLitter/)')
-
-
-# Teach and Practice section
-with st.expander("🚯 Teach and Practice"):
-    st.write('**No Littering:**')
-    st.write('Never drop litter. Teach kids the importance of keeping our community clean.')
-
+    
 # Spread the Word section
 with st.expander("💬 Spread the Word"):
     st.write('**Be Vocal:**')

@@ -10,6 +10,8 @@ Hello, I'm the **PARTICK LITTER PAL**, your friendly neighborhood chatbot! 🌱�
 
 I can answer all your questions about keeping Partick clean and litter-free. Whether you need tips on recycling, want to know about local clean-up events, or just curious about how you can help make Partick a dearer, cleaner place, just type away! 🍃🗑️
 
+You can also ask me about local wildlife, nature, history, or anything else you're curious about. I'm here to help! 🐦🌳
+
 Let's make Partick sparkle together! 💬🌟
 """
 
@@ -42,3 +44,4 @@ if prompt := st.chat_input("What's your question?"):
         )
         response = st.write_stream(stream)
     st.session_state.messages.append({"role": "assistant", "content": response})
+    
