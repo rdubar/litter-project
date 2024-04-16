@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Partic Litter Action Plan 🌿')
+st.title('Partick Litter Action Plan 🌿')
 
 """
 * Offer posters to every supermarket, shop, pub, restaurant, and community centre in Partick.
