@@ -27,7 +27,7 @@ with st.expander("🔗 Useful Links"):
     [Glasgow City Council: Bins and Recycling](https://www.glasgow.gov.uk/index.aspx?articleid=15893)
     Partick Action On Litter Facebook Group](https://www.facebook.com/PartickActiononLitter)
     """
-    st.page_link("pages/Links.py", label = "Find more on our links page", icon="🔗")
+    st.page_link("pages/5_Links.py", label = "Find more on our links page", icon="🔗")
 
 # Supermarket Recycling section
 with st.expander("🛒 Supermarket Recycling"):
@@ -58,5 +58,5 @@ with st.expander("💬 Spread the Word"):
     [Email the Partick Litter Plan team](mailto:partick@dubar.com)
     """
 
-st.page_link("pages/Chatbot.py", label = "Questions? Ask the PARTICK LITTER CHATBOT!", icon="🤖")
+st.page_link("pages/2_Chatbot.py", label = "Questions? Ask the PARTICK LITTER CHATBOT!", icon="🤖")
 

@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Action Plan 🌿')
+st.title('Partic Litter Action Plan 🌿')
 
 """
 * Offer posters to every supermarket, shop, pub, restaurant, and community centre in Partick.
@@ -9,4 +9,5 @@ st.title('Action Plan 🌿')
 * Send a press release to local newspapers and radio stations.
 * Create a Partick Litter Plan Facebook page and Instagram account.
 * Add a feedback form to the Partick Litter Plan website.
+* Create more posters and infographics for social media.
 """
