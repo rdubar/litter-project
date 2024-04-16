@@ -54,7 +54,9 @@ with st.expander("💬 Spread the Word"):
     st.write('**Be Vocal:**')
     st.write('Make Partick a dear clean place. Share your efforts with hashtags:')
     st.write('#PartickLitterPlan #LessPlasticMorePartick')
+    """
+    [Email the Partick Litter Plan team](mailto:partick@dubar.com)
+    """
 
 st.page_link("pages/Chatbot.py", label = "Questions? Ask the PARTICK LITTER CHATBOT!", icon="🤖")
 
-st.write('#PartickLitterPlan #LessPlasticMorePartick')
