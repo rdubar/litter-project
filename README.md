@@ -6,13 +6,7 @@ Welcome to the Partick Litter-Project, a Streamlit application designed to engag
 ## Features
 - **Manifesto**: Actions to keep Partick tidy!
 - **Chatbot**: Interact with the Partick Litter Pal, a friendly chatbot here to answer your questions about litter prevention, recycling options, and upcoming community events.
-
-# TODO
-
-* Links
-* Poster
-* Stickers
-
+- **Free Poster**: An awesome free poster for you to print and share. 
 
 ## Project Roadmap
 
@@ -25,21 +19,31 @@ Welcome to the Partick Litter-Project, a Streamlit application designed to engag
 To run this Streamlit application on your local machine, follow these steps:
 
 1. Clone the repository:
-   \`\`\`bash
+```bash
    git clone https://github.com/rdubar/litter-project.git
-   \`\`\`
+ ```
 2. Navigate to the project directory:
-   \`\`\`bash
+```bash
    cd litter-project
-   \`\`\`
+ ```
 3. Install dependencies (ensure you have Python installed):
-   \`\`\`bash
+```bash
    pip install -r requirements.txt
-   \`\`\`
-4. Run the application:
-   \`\`\`bash
+ ```
+4. Set up your Open AI api key for the Chatbot.
+```bash
+   mkdir -p .streamlit
+   touch .streamtlit/secrets.toml
+```
+Make sure your `.streamtlit/secrets.toml` file contains the following:
+```bash
+   [openai]
+   openai_api_key = [YOUR API KEY GOES HERE]
+```
+5. Run the application:
+```bash
    streamlit run Home.py
-   \`\`\`
+ ```
 
 ## Contributing
 
@@ -53,7 +57,8 @@ For more information, please read the CONTRIBUTING.md file.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
+- The project poster is licensed for non-commercial use under the [CC BY-NC 4.0 DEED License](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Contact
 

@@ -1,9 +1,17 @@
 import streamlit as st
 from openai import OpenAI
+import os
 
 st.title("Partick Litter Chatbot 🤖")
 
-client = OpenAI(api_key=st.secrets["openai"]["openai_api_key"])
+# Attempt to get the API key from Streamlit secrets or environment variable
+api_key = st.secrets.get("openai", {}).get("openai_api_key", None) or os.getenv("OPENAI_API_KEY")
+
+try:
+    client = OpenAI(api_key=api_key)
+except Exception as e:
+    st.error(f"Sorry! The Chatbot is out of order.")
+    st.stop()
 
 seed_prompt = """
 Hello, I'm the **PARTICK LITTER PAL**, your friendly neighborhood chatbot! 🌱✨
