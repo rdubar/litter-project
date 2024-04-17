@@ -3,7 +3,7 @@ import streamlit as st
 st.title('Partick Litter Plan Poster 🌿')
 
 
-st.image('images/Partick_Litter_Plan.jpg', width=400)
+st.image('images/Partick_Litter_Plan.jpg', use_column_width=True)
 
 with open('images/Partick_Litter_Plan.pdf', "rb") as file:
     btn = st.download_button(
