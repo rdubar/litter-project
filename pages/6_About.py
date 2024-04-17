@@ -20,4 +20,4 @@ Special thanks to my colleagues at APV for their support and encouragement.
 [Email the Partick Litter Plan team](mailto:partick@dubar.com)
 
 """
-
+st.page_link("pages/7_Feedback.py", label = "Leave us feedback!", icon="💬")

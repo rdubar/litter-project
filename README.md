@@ -58,7 +58,7 @@ For more information, please read the CONTRIBUTING.md file.
 ## License
 
 - This project is licensed under the MIT License - see the LICENSE file for details.
-- The project poster is licensed for non-commercial use under the [CC BY-NC 4.0 DEED License](https://creativecommons.org/licenses/by-nc/4.0/)
+- The project poster is licensed for non-commercial use under the [CC BY-NC 4.0 DEED License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Contact
 

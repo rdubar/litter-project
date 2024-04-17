@@ -57,8 +57,12 @@ with st.expander("🧹 Litter-Picking Events"):
 with st.expander("💬 Spread the Word"):
     """
     * Be vocal! Share your efforts with hashtags: #PartickLitterPlan #LessPlasticMorePartick
-    * [Email the Partick Litter Plan team](mailto:partick@dubar.com)
     """
+    
+# Feedback section
+with st.expander("💁‍♀️ About the Project"):
+     st.page_link("pages/6_About.py", label = "About the Partick Litter Plan", icon="🏴󠁧󠁢󠁳󠁣󠁴󠁿")
+     st.page_link("pages/7_Feedback.py", label = "Leave us feedback!", icon="💬")
     
 # Chatbot Section
 with st.expander("🤖 Partick Litter Plan Chatbot"):
