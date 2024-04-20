@@ -11,6 +11,7 @@ st.title('Useful Links 🌿')
 
 #### Partick Community
 - [Partick Action On Litter Facebook Group](https://www.facebook.com/PartickActiononLitter)
+- [Keep Scotland Beautiful](https://www.keepscotlandbeautiful.org/)
 
 #### News
 - ['Eureka moment' as scientists unveil plastic alternative made from seaweed](https://news.stv.tv/east-central/edinburgh-napier-university-researchers-launch-biodegradable-seaweed-alternative-to-plastic)
