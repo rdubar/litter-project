@@ -22,4 +22,3 @@ st.title('Useful Links 🌿')
 - [Less Plastic: excellent campaign & resources on reducing plastic use](https://www.lessplastic.org.uk)
 - [Recycle more: Understanding recycling symbols](https://www.recycle-more.co.uk/what-can-i-recycle/recycling-symbols-explained)
 """
-
