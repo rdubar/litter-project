@@ -34,16 +34,17 @@ with st.expander("🛍️ How you can help"):
 with st.expander("🔗 Handy Links"):
     """
     * [Glasgow City Council: Bins and Recycling](https://www.glasgow.gov.uk/index.aspx?articleid=15893)
-    * Partick Action On Litter Facebook Group](https://www.facebook.com/PartickActiononLitter)
+    * [Partick Action On Litter Facebook Group](https://www.facebook.com/PartickActiononLitter)
+    * [Recycle more: Understanding recycling symbols](https://www.recycle-more.co.uk/what-can-i-recycle/recycling-symbols-explained)
     """
     st.page_link("pages/5_Links.py", label = "Find more on our links page", icon="🔗")
 
 # Supermarket Recycling section
 with st.expander("🛒 Supermarket Action"):
     """
-    * Currently only **Morrisons** and **Marks & Spencer** currently accept plastic packaging for recycling.
+    * Currently only Partick **Morrisons** and **Marks & Spencer** accept plastic packaging for recycling.
     * Ask your supermarket to collect plastic packaging for recycling.
-    * Encourage them to use less plastic in food packaging.
+    * Encourage your supermarket to use less plastic in food packaging.
     """ 
 
 # Join Litter-Picking Events section
