@@ -5,7 +5,7 @@ import json
 import dataclasses
 from datetime import datetime
 from pymongo import MongoClient
-from bson.objectid import ObjectId # use to convert string to ObjectId
+from bson.objectid import ObjectId
 
 
 def is_running_locally():
@@ -38,6 +38,12 @@ class MongoConfig:
         except Exception as e:
             print(f"Failed to connect to MongoDB: {e}")
             self.connection_status = False
+            
+    def error(self):
+        return not self.connection_status
+    
+    def count(self):
+        return self.collection.count_documents({})
 
     @staticmethod
     def str_to_id(str: str) -> ObjectId:

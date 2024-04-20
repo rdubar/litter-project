@@ -26,7 +26,7 @@ To run this Streamlit application on your local machine, follow these steps:
 ```bash
    cd litter-project
  ```
-3. Install dependencies (ensure you have Python installed):
+3. Install dependencies (resquires Python 3):
 ```bash
    pip install -r requirements.txt
  ```

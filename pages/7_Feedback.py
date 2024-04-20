@@ -6,6 +6,10 @@ st.set_page_config(page_title="Feedback", page_icon="🌿")
 
 st.title("Feedback")
 
+if mongo_db.error():
+    st.error("Sorry! Feedback cannot be received at this time.")
+    st.stop()
+
 """
 We'd love to hear your thoughts on the Partick Litter Project.
 
@@ -26,6 +30,9 @@ if submit:
     # log_mongo(values)
     mongo_db.write_log(values)
     st.write("Thank you for your feedback!")
+    
+# show the number of feedback entries
+st.write(mongo_db.count())
 
 # Only show feedback received if running locally
 if is_running_locally():
